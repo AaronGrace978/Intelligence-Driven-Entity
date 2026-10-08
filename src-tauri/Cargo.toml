@@ -1,0 +1,29 @@
+[package]
+name = "the-entity"
+version = "5.2.0"
+description = "A futuristic multi-provider AI chat client with a contorting entity"
+edition = "2021"
+
+[lib]
+name = "the_entity_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.12", default-features = false, features = ["json", "stream", "rustls-tls", "http2"] }
+tokio = { version = "1", features = ["macros", "time", "sync"] }
+tokio-util = "0.7"
+futures-util = "0.3"
+gilrs = "0.11"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+panic = "abort"
+strip = true
