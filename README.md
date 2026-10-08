@@ -1,5 +1,6 @@
 # THE ENTITY
 
+![Intelligence Driven Entity](assets/intelligence-driven-entity.jpg)
 [![Tauri 2](https://img.shields.io/badge/Tauri_2-24C8DB?style=flat&logo=tauri&logoColor=white)](https://v2.tauri.app)
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -7,7 +8,7 @@
 [![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat&logo=threedotjs&logoColor=white)](https://threejs.org)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vite.dev)
 
-![Intelligence Driven Entity](assets/intelligence-driven-entity.jpg)
+
 
 A futuristic multi-provider AI chat client built with **Tauri 2** (Rust) + React + Three.js.
 A face made of light lives next to the chat, and it **contorts in real time** based on telemetry
