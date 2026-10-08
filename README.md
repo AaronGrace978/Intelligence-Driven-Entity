@@ -1,5 +1,7 @@
 # THE ENTITY
 
+![Intelligence Driven Entity](assets/intelligence-driven-entity.jpg)
+
 A futuristic multi-provider AI chat client built with **Tauri 2** (Rust) + React + Three.js.
 A face made of light lives next to the chat, and it **contorts in real time** based on telemetry
 streamed from the Rust backend: token throughput, model confidence (from token logprobs), and errors.
